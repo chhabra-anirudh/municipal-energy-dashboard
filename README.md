@@ -27,16 +27,6 @@ Built with **React + Chart.js + TailwindCSS** for clean, responsive, and profess
 
 ---
 
-## Screenshots
-
-### Dashboard Overview
-![Dashboard Screenshot](./screenshots/dashboard.png)
-
-### Charts
-![Charts Screenshot](./screenshots/charts.png)
-
----
-
 ## Tech Stack
 - **Frontend:** React (Vite/CRA) + TailwindCSS
 - **Charts:** Chart.js + react-chartjs-2
@@ -51,18 +41,24 @@ Clone the repo:
 ```bash
 git clone https://github.com/chhabra-anirudh/municipal-energy-dashboard.git
 cd municipal-energy-dashboard
+```
 Install dependencies:
+```bash
 npm install
+```
 Run locally:
+```bash
 npm start
+```
 Build for production:
+```bash
 npm run build
 ```
 
 ---
 
 ## Project Structure:
-
+```
 municipal-energy-dashboard/
 ├── src/
 │   ├── components/    # Reusable chart & UI components
@@ -72,10 +68,9 @@ municipal-energy-dashboard/
 ├── public/            # Static assets
 ├── package.json
 └── README.md
-
+```
 
 ---
 
 ## Future Improvements:
-
 Add support for newer datasets (post-2017)
